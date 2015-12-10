@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgView;
+@property (strong, nonatomic) IBOutlet UIButton *btnUploadImage;
 
+- (IBAction)btnUploadImageTapped:(id)sender;
 @end
 
